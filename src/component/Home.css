@@ -1,0 +1,27 @@
+.title{
+    text-align:center;
+}
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-display{
+    width: 16vw;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+}
+
+.card-display h3{
+    background-color: white;
+}
+
+.card-display p{
+    background-color: white;
+}
