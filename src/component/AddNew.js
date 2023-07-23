@@ -20,7 +20,7 @@ function AddNew() {
             domain: enteredDomain
         }
 
-        fetch("https://project-bd1df-default-rtdb.firebaseio.com/.json",{
+        fetch("https://cap-project-7ec00-default-rtdb.firebaseio.com/.json",{
             method: "POST",
             body: JSON.stringify(datas),
             headers:
