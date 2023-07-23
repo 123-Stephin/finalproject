@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import './style.css'
 
 function Navbar() {
-  return (
+  return (  
     <>
-        `<nav className="nav">
-            <Link to="/" className="home-title">Project</Link>
+        <nav className="nav">
+            <Link to="/" className="home-title">Front Page</Link>
                 <ul>
                         <CustomLink to="/home">Home Page</CustomLink>
                         <CustomLink to="/add-new">Add New</CustomLink>
+                        <CustomLink to="/test">LPU</CustomLink>
                 </ul>
         </nav>
     </> 
